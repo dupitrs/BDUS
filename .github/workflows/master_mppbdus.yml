@@ -36,6 +36,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: mppbdus  # change this if your app name is different
+          app-name: MPPBDUS  # change this if your app name is different
           slot-name: production
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
